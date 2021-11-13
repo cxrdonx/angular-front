@@ -1,0 +1,47 @@
+
+<header>
+  <nav>
+<ul class="nav-links">
+   <li ><a class="about" [routerLink]="['/sobre-mi']">Sobre mi</a></li>
+   <li ><a class="proyect"[routerLink]="['/cargar-proyecto']">Proyectos</a></li>
+   <li ><a class="contact"[routerLink]="['/contacto']">Contacto</a></li>
+   <li><a class="blog-personal"[routerLink]="['/blog']">Blog</a></li>
+ </ul>
+
+ <div class="burger" id="burger">
+  <div class="line1"></div>
+  <div class="line2"></div> 
+  <div class="line3"></div>
+</div>
+</nav>
+
+</header>
+
+<section class="page-home">
+  <router-outlet></router-outlet>
+</section>
+
+
+
+
+<footer>
+<div class="div-col1">
+  <p>Blog personal</p>
+  <a href="https://www.linkedin.com/in/jos%C3%A9-eduardo-cardona-mu%C3%B1oz-6475741ab" class="lnfoot">Linkedin</a>
+  <p><a href="https://www.github.com/cxrdonx" class="gtfoot">Github</a></p>
+</div>
+
+  <div class="div-col3">
+    <p>Este portafolio fue creado con: </p>
+    
+  </div>
+   <div class="div-col4">
+      <a><span class="imgfoot"></span></a>
+  </div>
+  <div class="div-col4">
+    <a>&</a>   
+</div>
+<div class="div-col4">
+  <a><span class="imgfoot2"></span></a>   
+</div>
+</footer>

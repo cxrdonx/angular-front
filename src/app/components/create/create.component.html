@@ -1,0 +1,20 @@
+
+     
+<div class="projects-container">
+        <li *ngFor="let project of projects.project; index as i; first as isFirst" class="project-for-list">
+        <div class="projects-list" [routerLink]="['/proyecto', project._id]">
+            <img src="{{url+'get-image/'+project.image}}">
+            <h2>{{project.name}}</h2>
+            <p>{{project.description}}</p>
+            <p>{{project.category}}</p>
+            <p>{{project.langs}}</p>
+           </div>
+          
+        </li>
+
+
+
+
+    </div>
+
+
