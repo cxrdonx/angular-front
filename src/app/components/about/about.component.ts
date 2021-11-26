@@ -1,5 +1,5 @@
 import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
-import { Component, OnInit, Renderer2, ElementRef, Inject } from '@angular/core';
+import { Component, OnInit, Renderer2} from '@angular/core';
 import {DOCUMENT} from '@angular/common';
 declare const tree: any;
 @Component({
@@ -13,7 +13,7 @@ public title: string;
 public subtitle: string;
 public tools: string[];
 
-  constructor( private _renderer: Renderer2, @Inject(DOCUMENT) private _document: Document) { 
+  constructor( private _renderer: Renderer2) { 
     this.title ="HOLA, soy José Cardona";
     this.subtitle ="Programador";
     this.tools = ["Java", "NodeJs", "HTML", "CSS", "JavaScript", "Github"];
