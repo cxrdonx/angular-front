@@ -818,6 +818,13 @@ footer .div-col4 .imgfoot2{
     }
 }
 
+footer .img-foot{
+    margin: 0 auto;
+    display: flex;
+    margin-left: 8px;
+    margin-top: 0px;
+}
+
 @media screen and (max-width: 500px){
     .about-me--laptop-logo{
         margin-top: 200px;
@@ -831,6 +838,11 @@ footer .div-col4 .imgfoot2{
 
     footer .div-col4{
         margin-top: 28px;
+
+    }
+
+    footer .img-foot{
+       margin-left: 110px;
     }
 
 
