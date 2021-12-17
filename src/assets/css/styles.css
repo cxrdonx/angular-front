@@ -83,12 +83,12 @@ header a:hover{
 }
 
 .page-home{
-    
     width: 100%;
     margin: 0 auto;
     padding-top: 1px;
     background-color:var(--light-dark);
 }
+
 
 .animation{
     opacity: 0;
@@ -147,6 +147,7 @@ header a:hover{
         background-color:var(--light-dark);
 
 }
+
 .aboutme--presentation-container .about-me{
     font-size: 1.9rem;
     margin-top: 30px;
