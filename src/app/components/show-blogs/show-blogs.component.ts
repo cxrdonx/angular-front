@@ -13,6 +13,7 @@ import { ProjectService } from 'src/app/service/project.service';
 export class ShowBlogsComponent implements OnInit {
    private url: String;
    public blog: any;
+   public br: any;
 
   constructor(private _projectService: ProjectService, private _route: ActivatedRoute) { 
       this.url = this.blog;
@@ -29,6 +30,9 @@ export class ShowBlogsComponent implements OnInit {
       this._projectService.getBlog(id).subscribe(
         response =>{
            this.blog = response.blog;
+           this.br = response.blog.content.replace(/\./g, '<br/>');
+           console.log(this.br);
+      
         },
         error =>{
           console.log(<any>error);

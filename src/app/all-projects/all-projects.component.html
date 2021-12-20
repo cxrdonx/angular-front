@@ -15,6 +15,9 @@
      <div class="langs">
         <input type="text-area" name="langs" placeholder="   Tecnologías utilizadas" class="upload-langs" [(ngModel)]="project.langs">
      </div>
+     <div class="links">
+      <input type="text" name="links" placeholder="   Enlace a github:" class="upload-links" [(ngModel)]="project.links" >
+   </div>
      <div class="image">
          <input type="file" name="image" value="subir imagen" placeholder="subir imagen" class="upload-image" (change)="fileChangeEvent($event)" >
      </div>

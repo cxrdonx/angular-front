@@ -4,7 +4,8 @@ export class Project {
   public name: string,
   public description: string,
   public category: string,
-public langs: string,
+  public links: string,
+  public langs: string,
      public image: string
     ){}
 }

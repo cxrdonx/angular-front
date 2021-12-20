@@ -24,7 +24,7 @@ export class AllProjectsComponent implements OnInit {
   public projects: any;
 
   constructor(private _projectService: ProjectService, private _uploadService: UploadService) {
-        this.project = new Project('','','','','','');
+        this.project = new Project('','','','','','','');
         this.blog = new Blog('','','','','');
         this.filesToUpload = new Array<File>();
         this.projectId = this.project._id;
