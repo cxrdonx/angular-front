@@ -569,7 +569,7 @@ footer .div-col4 .imgfoot2{
  .detail-project--container .detail-project{
      width: 50%;
      height: 900px;
-   margin: 120px auto;
+   margin: 0px auto;
    text-align: center;
    
  }
@@ -640,28 +640,6 @@ footer .div-col4 .imgfoot2{
       height: auto;
       width: 100%;
 
- }
- .blog-container .blog-container--content{
-       display: flex;
-       height: auto;
-       width: 100%;
-         text-align: center;
- }
-
- .blog-container .blog-text{
-     height: auto;
-     margin: 120px auto;
-     align-items: center;
-     
- }
-
- .blog-text .blog-list .p{
-     text-decoration: none;
-     
- }
-
- .blog-text .blogs-container{
-     background-color: #6d00e1;
  }
 
  .blog-text .title{
