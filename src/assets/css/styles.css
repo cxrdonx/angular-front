@@ -497,14 +497,34 @@ footer .div-col4 .imgfoot2{
     background-color: #161a1d; 
 }
 
+
 .projects-container .project-for-list{
     height: auto;
-    max-width: 40%;
     display: flex;
     margin: 120px auto;
     margin-bottom: 120px;
- 
+    width: 100%;
 }
+
+.projects-container .card-container{
+   display: flex;
+   min-width:60%;
+   margin: 0 auto;
+}
+.projects-container .projects-list{
+
+
+  max-width: 80%;
+  min-width: 70%;
+
+
+}
+
+.projects-container .card{
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 
 .projects-container h2{
@@ -523,6 +543,7 @@ footer .div-col4 .imgfoot2{
 .projects-container img{
    width: 200px;
    height: 120px;
+
 }
 
 .projects-container .projects-list{
@@ -570,7 +591,7 @@ footer .div-col4 .imgfoot2{
      width: 50%;
      height: 900px;
    margin: 0px auto;
-   text-align: center;
+   text-align: justify;
    
  }
 
@@ -578,6 +599,7 @@ footer .div-col4 .imgfoot2{
      font-size: 3rem;
      margin-top: 150px;
      font-weight: bold;
+     text-align: center;
      color: var(--white);
  }
 
