@@ -582,16 +582,17 @@ footer .div-col4 .imgfoot2{
   }
 
  .detail-project--container{
-     height: 1200px;
+     height: auto;
      width: 100%;
      display: flex;
  }
 
  .detail-project--container .detail-project{
-     width: 50%;
-     height: 900px;
+     width: 80%;
+     height: auto;
    margin: 0px auto;
    text-align: justify;
+   margin-bottom: 200px;
    
  }
 
@@ -610,14 +611,16 @@ footer .div-col4 .imgfoot2{
  }
 
  .detail-project--container .detail-project--image{
-     width: 80%;
-     height: 200px;
+     width: 100%;
+     height: auto;
      margin: 50px auto;
+     display: flex;
  }
 
  .detail-project--container .detail-project--image img{
-     width: 70%;
-     height: 190px;
+
+    width:  50%;
+     margin: 0 auto;
  }
 
  .code-source{
