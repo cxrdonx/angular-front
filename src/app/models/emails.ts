@@ -3,7 +3,6 @@ export class Emails{
       public name: string,
       public email: string,
       public affair: string,
-      public message: string
-
+      public message: string,
     ){}
 }
