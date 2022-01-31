@@ -820,6 +820,10 @@ footer .div-col4 .imgfoot2{
         
         font-size: 1.5rem;
     }
+    .detail-project--container .detail-project p{
+        font-size: 1.4rem;
+        margin-top: 15px;
+    }
 }
 
 footer .img-foot{
@@ -828,6 +832,7 @@ footer .img-foot{
     margin-left: 8px;
     margin-top: 0px;
 }
+
 
 @media screen and (max-width: 500px){
     .about-me--laptop-logo{

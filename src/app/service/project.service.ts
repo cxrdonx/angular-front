@@ -30,6 +30,12 @@ import { Blog } from "../models/blog";
             return this._http.post(this.url+'send-email', params, {headers: headers});
         }
 
+        saveEmail(email:Emails): Observable<any>{
+             let params =JSON.stringify(email);
+             let headers = new HttpHeaders().set('Content-Type', 'application/json');
+             return this._http.post(this.url+'save-dbemail', params, {headers: headers});
+        }
+
         getProjects(): Observable<any>{
             return this._http.get(this.url+'all');
         }
