@@ -42,7 +42,19 @@ export class ContactComponent implements OnInit {
 
   onSubmit(forms:NgForm){
   
-   
+    this._projectService.saveEmail(this.email).subscribe(
+      response =>{
+        if(response.email){
+          this.status = 'saved';
+
+        }else{
+          this.status = 'failed';
+        }
+      },
+      error =>{
+        console.log(<any>error);
+      }
+    )
 
     this._projectService.sendEmail(this.email).subscribe(
       response=>{
@@ -70,19 +82,7 @@ export class ContactComponent implements OnInit {
       submit();
 
       
-    this._projectService.saveEmail(this.email).subscribe(
-        response =>{
-          if(response.email){
-            this.status = 'saved';
-
-          }else{
-            this.status = 'failed';
-          }
-        },
-        error =>{
-          console.log(<any>error);
-        }
-      )
+  
     }
 
 }
